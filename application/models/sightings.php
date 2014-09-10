@@ -34,4 +34,16 @@ class Sightings extends MY_Model {
 	 * @var int
 	 */
 	public $longitude;
+
+	/**
+	 * date.
+	 * @var date
+	 */
+	public $sight_date;
+
+	/**
+	 * sighted by.
+	 * @var string
+	 */
+	public $person;
 }

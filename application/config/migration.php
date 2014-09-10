@@ -4,12 +4,11 @@
 | Enable/Disable Migrations
 |--------------------------------------------------------------------------
 |
-| Migrations are disabled by default but should be enabled 
+| Migrations are disabled by default but should be enabled
 | whenever you intend to do a schema migration.
 |
-*/
-$config['migration_enabled'] = FALSE;
-
+ */
+$config['migration_enabled'] = TRUE;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,9 +19,8 @@ $config['migration_enabled'] = FALSE;
 | If you run $this->migration->latest() this is the version that schema will
 | be upgraded / downgraded to.
 |
-*/
-$config['migration_version'] = 0;
-
+ */
+$config['migration_version'] = 3;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,9 +31,8 @@ $config['migration_version'] = 0;
 | Typically, it will be within your application path.
 | Also, writing permission is required within the migrations path.
 |
-*/
+ */
 $config['migration_path'] = APPPATH . 'migrations/';
-
 
 /* End of file migration.php */
 /* Location: ./application/config/migration.php */

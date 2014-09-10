@@ -9,7 +9,7 @@ class Animal extends MY_Model {
 	 * Animal unique identifier.
 	 * @var int
 	 */
-	public $Animal_id;
+	public $animal_id;
 
 	/**
 	 * Animal name.
